@@ -8,5 +8,8 @@ public class CybertekApp {
         Mentor mentor =  new Mentor(fullTimeMentor, partTimeMentor);
         mentor.manageAccount();
 
+        Mentor mentor1 =  new Mentor (fullTimeMentor, partTimeMentor);
+        mentor1.manageAccount();
+
     }
 }
