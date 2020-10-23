@@ -5,6 +5,7 @@
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="fullTimeMentor" class = "services.FullTimeMentor"> </bean>
+    <bean id = "partTimeMentor" class = "services.PartTimeMentor"> </bean>
 
 
 
