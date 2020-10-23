@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Spring-00-LooselyCoupled/Spring-00-LooselyCoupled.iml" filepath="$PROJECT_DIR$/Spring-00-LooselyCoupled/Spring-00-LooselyCoupled.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-00-TightlyCoupled/Spring-00-TightlyCoupled.iml" filepath="$PROJECT_DIR$/Spring-00-TightlyCoupled/Spring-00-TightlyCoupled.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-01-SpringContainer/Spring-01-SpringContainer.iml" filepath="$PROJECT_DIR$/Spring-01-SpringContainer/Spring-01-SpringContainer.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-framework.iml" filepath="$PROJECT_DIR$/.idea/spring-framework.iml" />
     </modules>
   </component>
