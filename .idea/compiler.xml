@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Spring-02-DI-ConstructorInjection" />
         <module name="Spring-01-SpringContainer" />
+        <module name="Spring-02-DI-SetterInjection" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Spring-01-SpringContainer" target="1.8" />
       <module name="Spring-02-DI-ConstructorInjection" target="1.8" />
+      <module name="Spring-02-DI-SetterInjection" target="6" />
     </bytecodeTargetLevel>
   </component>
 </project>
