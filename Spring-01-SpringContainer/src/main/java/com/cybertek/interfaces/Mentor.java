@@ -1,4 +1,4 @@
-package interfaces;
+package com.cybertek.interfaces;
 
 public interface Mentor {
 

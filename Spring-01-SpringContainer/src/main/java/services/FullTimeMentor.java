@@ -1,6 +1,6 @@
 package services;
 
-import interfaces.Mentor;
+import com.cybertek.interfaces.Mentor;
 
 public class FullTimeMentor implements Mentor {
 
