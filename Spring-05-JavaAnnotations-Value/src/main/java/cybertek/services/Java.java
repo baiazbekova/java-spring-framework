@@ -7,6 +7,8 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
+import java.util.Arrays;
+
 @Component
 public class Java implements Course {
 
@@ -17,6 +19,11 @@ public class Java implements Course {
     private String instructor;
 
     private String[] days;
+
+    @Override
+    public String toString(){
+        return "Java{"+ "batch='"+ batch + '\'' + ", days=" + Arrays.toString(days)+ '}';
+    }
 
 
 
