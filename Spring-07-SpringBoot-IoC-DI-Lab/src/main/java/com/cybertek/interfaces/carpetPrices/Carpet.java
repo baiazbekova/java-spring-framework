@@ -2,7 +2,9 @@ package com.cybertek.interfaces.carpetPrices;
 
 import com.cybertek.enums.City;
 
+import java.math.BigDecimal;
+
 public interface Carpet {
 
-    double getSqFtPrice (City city);
+    BigDecimal getSqFtPrice (City city);
 }
