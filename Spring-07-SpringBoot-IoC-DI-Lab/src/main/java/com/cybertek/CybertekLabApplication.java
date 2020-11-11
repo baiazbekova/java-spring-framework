@@ -16,6 +16,7 @@ public class CybertekLabApplication {
         Calculator calculator = container.getBean("calculator", Calculator.class);
 
         System.out.println(calculator.getTotalCarpetCost(City.DALLAS));
+        System.out.println(calculator.getTotalCarpetCost(City.SAN_ANTONIO));
 
 
     }
