@@ -19,6 +19,24 @@
     <h2 th:text="${student.id}"></h2>
 
 
+    <!-- Links-->
+    <a th:href="@{https://cybertekschool.com}">Cybertek</a>
+
+    <a th:href="@{/student/register}">Register</a>
+
+    <!-- Adding parameters to link-->
+    <a th:href="@{/student/welcome(id=3)}">Link2</a> <!--hard coded-->
+    <a th:href="@{/student/welcome(id=${student.id})}">Link3</a>
+
+    <!-- Iteration -->
+    <ul>
+        <li th:each = "number: ${numbers}" th:text="${number}"> </li>
+    </ul>
+
+    <!--Fragment-->
+    <div th:replace="fragments/footer :: aigerim"></div>
+
+
 
 </body>
 </html>
