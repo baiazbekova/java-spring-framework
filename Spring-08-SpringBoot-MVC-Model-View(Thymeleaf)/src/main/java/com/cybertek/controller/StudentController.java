@@ -1,5 +1,6 @@
 package com.cybertek.controller;
 
+import com.cybertek.model.Student;
 import org.apache.tomcat.jni.Local;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -40,6 +41,13 @@ public class StudentController {
         //printing bday
         LocalDate bday = LocalDate.now().minusYears(29);
         model.addAttribute("bday", bday);
+
+
+        Student student = new Student (1, "Mike", "Smith");
+        model.addAttribute("student", student);
+
+
+
         return "student/welcome";
     }
 
