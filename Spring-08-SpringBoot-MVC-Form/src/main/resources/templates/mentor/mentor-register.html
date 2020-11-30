@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Mentor Registration</title>
+</head>
+<body>
+    <div align="center">
+
+
+    <form th:object="${mentor}">
+        <label>First Name: </label>
+        <input type = "text" id ="firstName" th:field="*{firstName}">
+
+
+
+        <label>Last Name: </label>
+        <input type = "text" id ="lastName">
+
+        <label>Gender: </label>
+        <input type = "text" id ="gender">
+
+        <label>Email: </label>
+        <input type = "text" id ="email">
+
+
+
+
+
+
+
+    </form>
+
+    </div>
+
+</body>
+</html>
